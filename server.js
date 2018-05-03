@@ -48,7 +48,7 @@ organizationSchema.pre('save', function (next) {
         self.created = new Date()
 
         self.employees = self.employees || 0;
-    } 
+    }
 
     next();
 })
